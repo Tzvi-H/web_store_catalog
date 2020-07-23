@@ -50,9 +50,9 @@ main {
   height: 235px;
 }
 
-.product:hover {
+/* .product:hover {
   cursor: pointer;
-}
+} */
 
 .product img {
   height: 140px;
@@ -72,3 +72,23 @@ main {
   margin-bottom: 5px;
 }
 
+label {
+  cursor: pointer;
+}
+
+.popup-image {
+  display: none;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input:checked + .popup-image {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  height: 500px;
+}
