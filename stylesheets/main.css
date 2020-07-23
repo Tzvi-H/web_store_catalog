@@ -1,0 +1,36 @@
+@import url('css-reset.css');
+
+html {
+  font: normal 16px Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #FCD733;
+}
+
+header {
+  background-color: #2B7FC1;
+  width: 900px;
+  margin: 0 auto;
+  padding: 30px 25px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+header h1 {
+  font-size: 38.5px;
+}
+ 
+header a {
+  color: white;
+}
+
+main {
+  background-color: #EBECED;
+  width: 900px;
+  margin: 30px auto 40px;
+}
+
+li {
+  background-color: #FEFFFF;
+}
