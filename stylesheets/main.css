@@ -50,6 +50,10 @@ main {
   height: 235px;
 }
 
+.product:hover {
+  cursor: pointer;
+}
+
 .product img {
   height: 140px;
   display: block;
