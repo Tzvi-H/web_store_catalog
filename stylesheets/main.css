@@ -17,8 +17,12 @@ header {
   border-bottom-right-radius: 16px;
 }
 
-header h1 {
+h1 {
   font-size: 38.5px;
+}
+
+h2 {
+  font-size: 32px
 }
  
 header a {
@@ -29,8 +33,39 @@ main {
   background-color: #EBECED;
   width: 900px;
   margin: 30px auto 40px;
+  padding: 25px 25px 41px
 }
 
-li {
-  background-color: #FEFFFF;
+.products {
+  display: grid;
+  margin-top: 25px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 17px;
 }
+
+
+.product {
+  background-color: white;
+  width: 200px;
+  height: 235px;
+}
+
+.product img {
+  width: 112px;
+  height: 140px;
+  display: block;
+  margin: 15px auto;
+}
+
+.product-info {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.product-name {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
